@@ -40,9 +40,5 @@
     });
   }
 
-  var target = document.querySelector('#js-loopstart');
-
-  target.addEventListener('click', function() {
-    execute();
-  });
+  document.querySelector('#js-loopstart').addEventListener('click', execute);
 });
