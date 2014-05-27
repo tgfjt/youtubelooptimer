@@ -40,11 +40,9 @@
     });
   }
 
-  document.addEventListener('DOMContentLoaded', function () {
-    var target = document.querySelector('#js-loopstart');
+  var target = document.querySelector('#js-loopstart');
 
-    target.addEventListener('click', function() {
-      execute();
-    });
+  target.addEventListener('click', function() {
+    execute();
   });
 });
