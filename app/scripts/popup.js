@@ -1,4 +1,14 @@
-(function() {
+(function(script) {
+  'use strict';
+
+  var run = setTimeout.bind(this, script);
+
+  if (document.readyState !== 'complete') {
+    window.addEventListener('load', run, true);
+  } else {
+    run();
+  }
+})(function () {
   'use strict';
 
   function execute() {
@@ -37,4 +47,4 @@
       execute();
     });
   });
-})();
+});
