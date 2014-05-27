@@ -1,0 +1,48 @@
+body {
+    padding: 20px;
+    margin: 0;
+    font-family: Helvetica, arial, freesans, clean, sans-serif;
+}
+
+#js-looptime {
+    padding: 7px 12px;
+    margin: 10px 10px 0 0;
+    font-size: 16px;
+    width: 50px;
+}
+
+#js-loopinfinite {
+    padding: 7px;
+}
+
+
+#js-loopstart {
+    background-color: #dddddd;
+    background-image: -moz-linear-gradient(#eee, #ddd);
+    background-image: -webkit-linear-gradient(#eee, #ddd);
+    background-image: linear-gradient(#eee, #ddd);
+    background-repeat: repeat-x;
+    border-color: #ccc;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+    white-space: nowrap;
+    background-color: #eeeeee;
+    background-image: -moz-linear-gradient(#fcfcfc, #eee);
+    background-image: -webkit-linear-gradient(#fcfcfc, #eee);
+    background-image: linear-gradient(#fcfcfc, #eee);
+    background-repeat: repeat-x;
+    border-radius: 3px;
+    border: 1px solid #d5d5d5;
+    cursor: pointer;
+    padding: 15px 20px;
+    font-size: 16px;
+    width: 100%;
+}
+
+#js-loopstart:hover {
+    background-color: #dddddd;
+    background-image: -moz-linear-gradient(#eee, #ddd);
+    background-image: -webkit-linear-gradient(#eee, #ddd);
+    background-image: linear-gradient(#eee, #ddd);
+    background-repeat: repeat-x;
+    border-color: #ccc;
+}

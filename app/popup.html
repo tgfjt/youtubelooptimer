@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- bower:css -->
+    <!-- endbower -->
+
+    <!-- build:css styles/main.css -->
+    <link href="styles/main.css" rel="stylesheet">
+    <!-- endbuild -->
+
+    <!-- bower:js -->
+    <script src="bower_components/notify.js/notify.js"></script>
+    <!-- endbower -->
+
+    <!-- build:js scripts/popup.js -->
+    <script src="scripts/popup.js"></script>
+    <!-- endbuild -->
+    <!-- build:js scripts/save.js -->
+    <script src="scripts/save.js"></script>
+    <!-- endbuild -->
+    <!-- build:js scripts/timer.js -->
+    <script src="scripts/timer.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <h1>LoopSong</h1>
+    <p>
+      <input type="text" name="time" placeholder="30" value="" id="js-looptime"> minutes
+    </p>
+    <p>
+      <label for="">
+        <input type="checkbox" name="loop" id="js-loopinfinite"> Infinite?
+      </label>
+    </p>
+    <p>
+      <button type="button" id="js-loopstart">Play</button>
+    </p>
+  </body>
+</html>
