@@ -1,5 +1,5 @@
 # youtubelooptimer
 
-![image](https://raw.githubusercontent.com/tgfjt/youtubelooptimer/master/youtubelooptimer.png)
+![image](https://raw.githubusercontent.com/tgfjt/youtubelooptimer/master/screenshot.png)
 
-[Chrome webstore](https://chrome.google.com/webstore/detail/youtubelooptimer/jfceklomhcdpijeamkkbggmodhojjmfl)
+[Chrome webstore](https://chrome.google.com/webstore/detail/youtubelooptimer/gknfnbaklbdmcbocjdibjjmamlegnjgi)
