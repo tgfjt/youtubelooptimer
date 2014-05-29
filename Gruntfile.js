@@ -279,7 +279,7 @@ module.exports = function (grunt) {
         compress: {
             dist: {
                 options: {
-                    archive: 'package/youtubelooptimer<%= config.manifest.version %>.zip'
+                    archive: 'package/looptimer for YouTube™<%= config.manifest.version %>.zip'
                 },
                 files: [{
                     expand: true,

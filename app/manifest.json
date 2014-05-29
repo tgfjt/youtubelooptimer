@@ -1,6 +1,6 @@
 {
     "name": "__MSG_appName__",
-    "version": "0.0.9",
+    "version": "0.0.1",
     "manifest_version": 2,
     "permissions": [
         "tabs",
@@ -24,7 +24,7 @@
             "19": "images/icon-19.png",
             "38": "images/icon-38.png"
         },
-        "default_title": "enjoy endless song on youtube",
+        "default_title": "looptimer for YouTube™",
         "default_popup": "popup.html"
     }
 }
